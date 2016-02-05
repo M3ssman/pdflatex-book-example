@@ -1,5 +1,7 @@
 *.log
 *.gz
 *.aux
+*.toc
 *.pdf
 *.*~
+book-progress.tex
