@@ -1,0 +1,40 @@
+% what kind of document to use
+\documentclass[12pt]{book}
+
+% declare packages to use
+\usepackage[ngerman]{babel}
+
+% to have some meaningless text at hand 
+\usepackage{blindtext}
+
+% handle german Sonderzeichen
+\usepackage[utf8]{inputenc}
+
+% uppercase first letter - not really working?
+% \usepackage{lettrine}
+
+% with modulo
+\usepackage[switch, modulo]{lineno}
+\linenumbers
+
+% change module line numbers to a different value
+% \modulolinenumbers[4]
+
+% set default font to sans serif font
+\renewcommand{\familydefault}{\sfdefault}
+
+
+\begin{document}
+	\part{Latex-Examples}
+	\chapter{Numbering Lines}
+	\begin{Huge}
+	Dies sind tüpische däutsche Großsatzzeichen.	
+	\end{Huge} 
+	
+	\begin{itshape}
+		\blindtext
+	\end{itshape}
+
+    \blindtext
+    
+\end{document}
