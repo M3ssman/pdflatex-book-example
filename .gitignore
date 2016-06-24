@@ -4,5 +4,6 @@
 **.toc
 **.pdf
 **.*~
-**/*-progress.tex
+# **/*-progress.tex
 **/kapitel
+**/book-progress.*
